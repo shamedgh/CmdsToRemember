@@ -3,7 +3,7 @@ Commands which are usually helpful. Sort of a cheat sheet for everything life wo
 
 ## Linux general bash commands:
 Check kernel version:
-'uname -r'
+```uname -r```
 
 Check release information:
-'cat /etc/*release'
+```cat /etc/*release```
