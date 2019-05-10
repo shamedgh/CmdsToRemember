@@ -23,3 +23,9 @@ echo "grep $i $INPUT2 >> badSyscall.list"
 grep "$i" "$INPUT2" >> badSyscall.list
 done
 ```
+Great and simple tool to track all fork/execs:
+```
+sudo apt-get install forkstat
+forkstat -e exec
+```
+Reference: https://stackoverflow.com/questions/26852228/detect-new-process-creation-instantly-in-linux
